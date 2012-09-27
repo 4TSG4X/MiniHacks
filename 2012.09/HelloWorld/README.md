@@ -39,7 +39,7 @@
 	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
 
-## "Hello World" With Express
+## "Hello World" With [Express](https://github.com/visionmedia/express)
 
 1. Install the Expresss module
 
@@ -69,7 +69,7 @@
 
 	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
 
-## "Hello World" With Restify
+## "Hello World" With [Restify](https://github.com/mcavage/node-restify)
 
 1. Create a directory called "hello-world-restify"
 
