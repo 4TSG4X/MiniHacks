@@ -41,6 +41,11 @@
 
 ## "Hello World" With [Express](https://github.com/visionmedia/express)
 
+> Express is a minimal and flexible node.js web application framework, providing a robust set of features for building single and multi-page, 
+> and hybrid web applications.
+>
+> ...from the [Project Page](http://expressjs.com/)
+
 1. Install the Expresss module
 
 	`% [sudo] npm install -g express`
