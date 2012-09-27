@@ -92,7 +92,7 @@
 	  res.send({ result: 'hello ' + req.params.name });
 	}
 
-	var server = restify.createSever();
+	var server = restify.createServer();
 	server.get('/hello/:name', respond);
 
 	server.listen(3000, function() {
