@@ -7,48 +7,70 @@
 
 2. Pick An Editor
   
-  > For some this is a religious decision, but here a few that work in case you are not already attached:
-  	> Mac: [TextMate](http://macromates.com/), [Sublime](http://www.sublimetext.com/)
-  	> Windows: [Sublime](http://www.sublimetext.com/), Notepad
-  	> Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome)
+  For some this is a religious decision, but here a few that work in case you are not already attached:
 
-3. Create a directory called ""hello-world"
-				% mkdir hello-world
+  	* Mac: [TextMate](http://macromates.com/), [Sublime](http://www.sublimetext.com/)
+  	* Windows: [Sublime](http://www.sublimetext.com/), Notepad
+  	* Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome)
 
-4. Create a file called app.js
+3. Create a directory called "hello-world"
 
-5. Enter the following code into the app.js file
+		% mkdir hello-world
 
-  			var http = require('http');
+4. Change into the new directory
 
-			http.createServer(function (req, res) {
-			  res.writeHead(200, {'Content-Type': 'text/plain'});
-			  res.end('Hello World\n');
-			}).listen(3000, '127.0.0.1');
+		% cd hello-world
+
+5. Create a file called app.js
+
+6. Enter the following code into the app.js file
+
+  	var http = require('http');
+
+		http.createServer(function (req, res) {
+		  res.writeHead(200, {'Content-Type': 'text/plain'});
+		  res.end('Hello World\n');
+		}).listen(3000, '127.0.0.1');
 			
-			console.log('Server running at http://127.0.0.1:3000/');
+		console.log('Server running at http://127.0.0.1:3000/');
 
-6. Save the app.js file and open a command prompt or terminal window
+7. Save the app.js file and open a command prompt or terminal window
 
-7. Run the server
+8. Run the server
 
-				% node app.js
+		% node app.js
 
-8. Visit the home page of the server in your browser
+9. Visit the [http://localhost:3000](default route) of the server in your browser		
 
-				http://localhost:3000
+		![](img/HellowWorld.png)
 
 
 ## "Hello World" With Express
 
 1. Install the Expresss module
 
-				% [sudo] npm install -g express
+		% [sudo] npm install -g express
 
 2. Create a directory called "hello-world-express"
 
-				% mkdir hello-world-express
+		% mkdir hello-world-express
 
-3. Create a new "Express" application inside this new directory
+3. Change into the new directory
 
-				% express .
+		% cd hello-world-express
+
+4. Create a new "Express" application inside this new directory
+
+		% express .
+
+5. Install dependencies from NPM
+
+		% npm install
+
+6. Run the server
+
+		% node app.js
+
+7. Visit the [http://localhost:3000](default route) of the server in your browser. You should see the default home page for Express:
+
+		![](img/HelloWorldExpress.png)
