@@ -1,5 +1,7 @@
 # Poet minihack
 
+![The Node Poet](https://raw.github.com/jsantell/poet/gh-pages/img/poet.png)
+
 ## Requirements
 
 * node
