@@ -77,7 +77,7 @@
 > Restify does not. Restify exists to let you build "strict" API services that are maintanable and observable.
 > Restify comes with automatic DTrace support for all your handlers, if you're running on a platform that supports DTrace.
 >
-> `from the Restify [API-Guide](http://mcavage.github.com/node-restify/)`
+> ...from the Restify [API-Guide](http://mcavage.github.com/node-restify/)
 
 1. Create a directory called "hello-world-restify"
 
