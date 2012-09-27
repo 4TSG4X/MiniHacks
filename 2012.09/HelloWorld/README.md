@@ -13,7 +13,7 @@
   	> Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome)
 
 3. Create a directory called ""hello-world"
-	> mkdir hello-world
+				% mkdir hello-world
 
 4. Create a file called app.js
 
@@ -38,4 +38,17 @@
 
 				http://localhost:3000
 
+
 ## "Hello World" With Express
+
+1. Install the Expresss module
+
+				% [sudo] npm install -g express
+
+2. Create a directory called "hello-world-express"
+
+				% mkdir hello-world-express
+
+3. Create a new "Express" application inside this new directory
+
+				% express .
