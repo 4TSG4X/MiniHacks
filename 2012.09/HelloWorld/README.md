@@ -29,13 +29,11 @@
 	console.log('Server running at http://127.0.0.1:3000/');
 	```
 
-4. Save the app.js file and open a command prompt or terminal window
-
-5. Run the server
+4. Open a command prompt or terminal window and run the server:
 
 	`% node app.js`
 
-6. Visit the [http://localhost:3000](default route) of the server in your browser		
+5. Visit the [http://localhost:3000](default route) of the server in your browser and you should see something like the this:
 
 	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
