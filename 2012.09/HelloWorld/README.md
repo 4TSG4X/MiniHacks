@@ -33,7 +33,7 @@
 
 	`% node app.js`
 
-5. Visit [](http://localhost:3000) in your browser. You should see the following:
+5. Visit http://localhost:3000 in your browser. You should see the following:
 
 	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
@@ -64,7 +64,7 @@
 
 	`% node app.js`
 
-7. Visit [](http://localhost:3000) in your browser. You should see the following:
+7. Visit http://localhost:3000 in your browser. You should see the following:
 
 	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
 
@@ -103,6 +103,6 @@
 
 	`% node app.js`
 
-6. Visit [](http://localhost:3000/hello/world) in your browser. You should see the following:
+6. Visit http://localhost:3000/hello/world in your browser. You should see the following:
 
 	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldRestify.png)
