@@ -64,6 +64,45 @@
 
 	`% node app.js`
 
-7. Visit the [http://localhost:3000](default route) of the server in your browser. You should see the default home page for Express:
+7. Visit [http://localhost:3000]() of the server in your browser. You should see the default home page for Express:
 
 	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
+
+## "Hello World" With Restify
+
+1. Create a directory called "hello-world-restify"
+
+	`% mkdir hello-world-restify`
+
+2. Change into the new directory
+
+	`% cd hello-world-restify`
+
+3. Install the `Restify` module from `NPM`
+
+	`% npm install restify`
+
+4. Enter the following code into a file called `app.js`:
+
+	```javascript
+	var restify = require('restify');
+
+	function respond(req, res, next) {
+	  res.send({ result: 'hello ' + req.params.name });
+	}
+
+	var server = restify.createSever();
+	server.get('/hello/:name', respond);
+
+	server.listen(8080, function() {
+	  console.log('%s listening at %s', server.name, server.url);
+	});
+	```
+
+5. Run the server
+
+	`% node app.js`
+
+6. Visit [http://localhost:3000/hello/world]() in your browser. You should see the following:
+
+	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldRestify.png)
