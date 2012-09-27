@@ -36,7 +36,7 @@
 
 5. Visit [http://localhost:3000](http://localhost:3000) in your browser. You should see the following:
 
-	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
+	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorld.png)
 
 
 ## "Hello World" With [Express](https://github.com/visionmedia/express)
@@ -72,7 +72,7 @@
 
 7. Visit [http://localhost:3000](http://localhost:3000) in your browser. You should see the following:
 
-	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
+	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorldExpress.png)
 
 ## "Hello World" With [Restify](https://github.com/mcavage/node-restify)
 
@@ -119,4 +119,4 @@
 
 6. Visit [http://localhost:3000/hello/world](http://localhost:3000/hello/world) in your browser. You should see the following:
 
-	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldRestify.png)
+	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorldRestify.png)
