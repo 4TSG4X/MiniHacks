@@ -25,6 +25,7 @@
 
 6. Enter the following code into the app.js file
 
+		```javascript
   	var http = require('http');
 
 		http.createServer(function (req, res) {
@@ -33,6 +34,7 @@
 		}).listen(3000, '127.0.0.1');
 			
 		console.log('Server running at http://127.0.0.1:3000/');
+		```
 
 7. Save the app.js file and open a command prompt or terminal window
 
