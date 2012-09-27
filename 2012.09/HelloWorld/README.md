@@ -41,16 +41,29 @@
 ## "Hello World" With Express
 
 1. Install the Expresss module
-		`% [sudo] npm install -g express`
+
+	`% [sudo] npm install -g express`
+
 2. Create a directory called "hello-world-express"
-		`% mkdir hello-world-express`
+
+	`% mkdir hello-world-express`
+
 3. Change into the new directory
-		`% cd hello-world-express`
+
+	`% cd hello-world-express`
+
 4. Create a new "Express" application inside this new directory
-		`% express .`
+
+	`% express .`
+
 5. Install dependencies from NPM
-		`% npm install`
+
+	`% npm install`
+
 6. Run the server
-		`% node app.js`
+
+	`% node app.js`
+
 7. Visit the [http://localhost:3000](default route) of the server in your browser. You should see the default home page for Express:
-		![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
+
+	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
