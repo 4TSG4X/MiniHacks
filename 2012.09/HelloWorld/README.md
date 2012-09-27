@@ -1,4 +1,5 @@
 ## Prerequisites
+
 1. Install Node.js	
 	* Mac or Windows [Installers](http://nodejs.org/download/)
 	* Linux [Package Instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
