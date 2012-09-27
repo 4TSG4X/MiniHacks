@@ -2,16 +2,15 @@
 
 1. Install Node.js
 
-	> For Mac or Windows use the installers from http://nodejs.org/download/
-	> For most Linux distributions use the package instructions from https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+	- For Mac or Windows use the installers from http://nodejs.org/download/
+	- For most Linux distributions use the package instructions from https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
 2. Pick An Editor
   
-  For some this is a religious decision, but here a few that work in case you are not already attached:
-
-  	* Mac: [TextMate](http://macromates.com/), [Sublime](http://www.sublimetext.com/)
-  	* Windows: [Sublime](http://www.sublimetext.com/), Notepad
-  	* Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome)
+  * For some this is a religious decision, but here a few that work in case you are not already attached:
+    - Mac: [TextMate](http://macromates.com/), [Sublime](http://www.sublimetext.com/)
+    - Windows: [Sublime](http://www.sublimetext.com/), Notepad
+    - Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome)
 
 3. Create a directory called "hello-world"
 
@@ -25,16 +24,16 @@
 
 6. Enter the following code into the app.js file
 
-		```javascript
-  	var http = require('http');
+```javascript
+var http = require('http');
 
-		http.createServer(function (req, res) {
-		  res.writeHead(200, {'Content-Type': 'text/plain'});
-		  res.end('Hello World\n');
-		}).listen(3000, '127.0.0.1');
-			
-		console.log('Server running at http://127.0.0.1:3000/');
-		```
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(3000, '127.0.0.1');
+	
+console.log('Server running at http://127.0.0.1:3000/');
+```
 
 7. Save the app.js file and open a command prompt or terminal window
 
@@ -44,7 +43,7 @@
 
 9. Visit the [http://localhost:3000](default route) of the server in your browser		
 
-		![](img/HellowWorld.png)
+![](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
 
 ## "Hello World" With Express
@@ -75,4 +74,4 @@
 
 7. Visit the [http://localhost:3000](default route) of the server in your browser. You should see the default home page for Express:
 
-		![](img/HelloWorldExpress.png)
+![](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
