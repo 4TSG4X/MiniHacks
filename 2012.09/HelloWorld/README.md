@@ -1,4 +1,5 @@
 ## Prerequisites
+
 1. Install Node.js	
 	* Mac or Windows [Installers](http://nodejs.org/download/)
 	* Linux [Package Instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
@@ -91,7 +92,7 @@
 	  res.send({ result: 'hello ' + req.params.name });
 	}
 
-	var server = restify.createSever();
+	var server = restify.createServer();
 	server.get('/hello/:name', respond);
 
 	server.listen(3000, function() {
