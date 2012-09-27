@@ -1,5 +1,12 @@
 # Poet minihack
 
+## Requirements
+
+* node
+* npm
+
+Just have somewhat recent installs of node and npm and you'll be fine. This minihack goes over setting up a simple express app and tying poet into it. It uses jade templating, so if you're unfamiliar with it, no problem -- but hopefully you check it out and see how awesome it is.
+
 ## Set up your project
 
 First things first, make a directory for your new project, and then copy the `views`, `public` and `_posts` directory from the example app. These will just get us started with some templates for our blog, and sample posts so we can see when it's working.
@@ -93,7 +100,29 @@ poet
 Perfect. Now let's fire up our app again with `node .` and visit `localhost:3000` -- you should see a listing of a few posts, with tags and categories listed on the side.
 
 
-## Next
+## Your Own Posts
 
 At this point, we have an Express app using Poet's route generators and can start removing the sample posts and adding our own, but we can dig around a bit to see how all this works.
+
+Each of the posts are prefixed by front matter. If you used Jekyll before, it's the same deal here (except that uses YAML, which can also be used in Poet). In this case, the default is JSON.
+
+```
+{{{
+  "title" : "Hello World.js",
+  "tags"  : [ "blog", "fun" ],
+  "category" : "javascript",
+  "date" : "8-9-2012"
+}}}
+
+Here goes the content that belongs to the blog post.
+Blawg blawg blawg blawg.
+```
+
+We can specify a title for our blog, category, an array of tags and a date in JSON (which is triple-enclosed by curly brackets). What is below is our blog post that is rendered to the page. Remove the default posts and add your own and restart your node application to see them in action.
+
+## Change your view templates
+
+Poet provides several variables to your view templates, called locals. Check out `/views/post.jade`. In an individual post, the post variable contains all the metadata you put in the front matter for your post -- this is where your title, date, tags, and any other arbitrary information comes from. Post locals also have additional information such as `url`, `content` and `preview` related to the specific post.
+
+Checking out the main layout file, `/views/layout.jade`, we can see locals exposed such as `categoryList` and `categoryUrl` which are available to all routes. For a full list of locals exposed in all view templates, and on specific routes, check out the [Poet documentation](http://jsantell.github.com/poet#locals).
 
