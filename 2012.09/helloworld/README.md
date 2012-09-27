@@ -1,13 +1,3 @@
-## Prerequisites
-
-1. Install Node.js	
-	* Mac or Windows [Installers](http://nodejs.org/download/)
-	* Linux [Package Instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
-2. Pick An Editor
-	* Mac: [TextMate](http://macromates.com/), [Sublime](http://www.sublimetext.com/), a million others
-	* Windows: [Sublime](http://www.sublimetext.com/), Notepad, a million others
-	* Linux: [Sublime](http://www.sublimetext.com/), GEdit (Gnome), a million others
-
 ## "Hello World"
 1. Create a directory called "hello-world"
 
@@ -36,10 +26,15 @@
 
 5. Visit [http://localhost:3000](http://localhost:3000) in your browser. You should see the following:
 
-	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
+	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorld.png)
 
 
-## "Hello World" With Express
+## "Hello World" With [Express](https://github.com/visionmedia/express)
+
+> Express is a minimal and flexible node.js web application framework, providing a robust set of features for building single and multi-page, 
+> and hybrid web applications.
+>
+> ...from the [Project Page](http://expressjs.com/)
 
 1. Install the Expresss module
 
@@ -67,9 +62,17 @@
 
 7. Visit [http://localhost:3000](http://localhost:3000) in your browser. You should see the following:
 
-	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
+	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorldExpress.png)
 
-## "Hello World" With Restify
+## "Hello World" With [Restify](https://github.com/mcavage/node-restify)
+
+> Restify is a node.js module built specifically to enable you to build correct REST web services. 
+> It borrows heavily from express (intentionally) as that is more or less the de facto API for writing web applications on top of node.js. 
+> Express' use case is targeted at browser applications, and contains a lot of functionality (i.e., templating/rendering) to support that. 
+> Restify does not. Restify exists to let you build "strict" API services that are maintanable and observable.
+> Restify comes with automatic DTrace support for all your handlers, if you're running on a platform that supports DTrace.
+>
+> ...from the Restify [API-Guide](http://mcavage.github.com/node-restify/)
 
 1. Create a directory called "hello-world-restify"
 
@@ -106,4 +109,4 @@
 
 6. Visit [http://localhost:3000/hello/world](http://localhost:3000/hello/world) in your browser. You should see the following:
 
-	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldRestify.png)
+	![Hello World With Restify](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/helloworld/img/HelloWorldRestify.png)
