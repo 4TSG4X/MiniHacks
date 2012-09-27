@@ -71,6 +71,14 @@
 
 ## "Hello World" With [Restify](https://github.com/mcavage/node-restify)
 
+> Restify is a node.js module built specifically to enable you to build correct REST web services. 
+> It borrows heavily from express (intentionally) as that is more or less the de facto API for writing web applications on top of node.js. 
+> Express' use case is targeted at browser applications, and contains a lot of functionality (i.e., templating/rendering) to support that. 
+> Restify does not. Restify exists to let you build "strict" API services that are maintanable and observable.
+> Restify comes with automatic DTrace support for all your handlers, if you're running on a platform that supports DTrace.
+>
+> `from the Restify [API-Guide](http://mcavage.github.com/node-restify/)`
+
 1. Create a directory called "hello-world-restify"
 
 	`% mkdir hello-world-restify`
