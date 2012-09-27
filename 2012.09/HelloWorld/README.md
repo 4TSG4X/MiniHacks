@@ -33,7 +33,7 @@
 
 	`% node app.js`
 
-5. Visit the [http://localhost:3000](default route) of the server in your browser and you should see something like the this:
+5. Visit [http://localhost:3000]() in your browser. You should see the following:
 
 	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
@@ -64,7 +64,7 @@
 
 	`% node app.js`
 
-7. Visit [http://localhost:3000]() of the server in your browser. You should see the default home page for Express:
+7. Visit [http://localhost:3000]() in your browser. You should see the following:
 
 	![Hello World With Express](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorldExpress.png)
 
@@ -94,7 +94,7 @@
 	var server = restify.createSever();
 	server.get('/hello/:name', respond);
 
-	server.listen(8080, function() {
+	server.listen(3000, function() {
 	  console.log('%s listening at %s', server.name, server.url);
 	});
 	```
