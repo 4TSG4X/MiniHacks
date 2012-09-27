@@ -16,9 +16,8 @@
 
 	`% cd hello-world`
 
-3. Create a file called app.js
-
-4. Enter the following code into the app.js file
+3. Enter the following code into a file called `app.js`:
+	
 	```javascript
 	var http = require('http');
 	 
@@ -30,13 +29,13 @@
 	console.log('Server running at http://127.0.0.1:3000/');
 	```
 
-5. Save the app.js file and open a command prompt or terminal window
+4. Save the app.js file and open a command prompt or terminal window
 
-6. Run the server
+5. Run the server
 
 	`% node app.js`
 
-7. Visit the [http://localhost:3000](default route) of the server in your browser		
+6. Visit the [http://localhost:3000](default route) of the server in your browser		
 
 	![Hello World](https://raw.github.com/NodePhilly/MiniHacks/master/2012.09/HelloWorld/img/HelloWorld.png)
 
